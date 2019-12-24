@@ -1,7 +1,8 @@
 import React from 'react';
 import {Dimensions} from 'react-native';
 import Animated from 'react-native-reanimated';
-import {Feather as Icon} from '@expo/vector-icons';
+//import {Feather as Icon} from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const {sub, interpolate, Extrapolate} = Animated;
 const {width} = Dimensions.get('window');
